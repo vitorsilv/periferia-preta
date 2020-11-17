@@ -31,7 +31,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Espaço</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Festival</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projeto">Projetos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Imprensa</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./impensa.html" target="_blank" rel="noopener noreferrer">Imprensa</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
                     </ul>
                 </div>
@@ -40,7 +40,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <img src="assets/img/logo.png" alt="" srcset="">
+                <img src="assets/img/logo.png" alt="" srcset="" class="img-fluid">
                 <div class="text-uppercase">DA FAZENDA DA JUTA, ZONA LESTE DE SÃO PAULO</div>
                 <a class="btn btn-secondary btn-xl text-uppercase js-scroll-trigger" href="#about">Saiba mais</a>
             </div>
@@ -64,7 +64,9 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid-tl" src="assets/img/about/02.jpg" alt="" /></div>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid-tl" src="assets/img/about/02.jpg" alt="" />
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2014</h4>
@@ -88,13 +90,15 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2016</h4>
-                                <h4 class="subheading">1ª EDIÇÃO DA FEIRA DE EMPREENDEDORAS PRETAS</h4>
+                                <h4 class="subheading">1ª EDIÇÃO DA FEIRA DE EMP. PRETAS</h4>
                             </div>
                             <div class="timeline-body"><p class="text-normal">No ano de 2016 organizado principalmente pelas agentes culturais recém formadas pelo Ponto de Cultura Fazenda da Juta e custeada com a verba do Ponto a 2o edição trouxe nomes como Liniker e os Caramelows, Linn da Quebrada, Embalanço Sambarock, Luana Hansen entre outros, e a 1o edição da feira de empreendedoras pretas.</p></div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid-tl" src="assets/img/about/05.jpg" alt="" /></div>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid-tl" src="assets/img/about/05.jpg" alt="" />
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2017</h4>
@@ -275,6 +279,9 @@
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6 mb-5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.7144883513424!2d-46.50124408480765!3d-23.614570369444895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67e036b4c837%3A0xcf0f46174bd11001!2sAv.%20Sapopemba%2C%2011426%20-%20Jardim%20Adutora%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1605573488025!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="embed-responsive"></iframe>
+                        </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <input class="form-control" id="name" type="text" placeholder="Seu nome *" required="required" data-validation-required-message="Por favor, insira seu nome." />
@@ -284,22 +291,21 @@
                                 <input class="form-control" id="email" type="email" placeholder="Seu e-mail *" required="required" data-validation-required-message="Por favor, insira seu e-mail." />
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="form-group mb-md-0">
+                            <div class="form-group">
                                 <input class="form-control" id="phone" type="tel" placeholder="Seu telefone *" required="required" data-validation-required-message="Por favor, insira seu telefone." />
                                 <p class="help-block text-danger"></p>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
+                            <div class="form-group">
                                 <textarea class="form-control" id="message" placeholder="Sua mensagem *" required="required" data-validation-required-message="Por favor, insira uma mensagem."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
+                            <div class="text-center">
+                                <div id="success"></div>
+                                <button class="btn btn-primary btn-block btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
-                    </div>
+                    
                 </form>
             </div>
         </section>
