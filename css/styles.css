@@ -478,6 +478,11 @@ mark,
   height: auto;
 }
 
+.img-fluid-logo {
+  max-width: 35%;
+  height: auto;
+}
+
 .timeline-image {
   overflow: hidden;
   display: flex;
