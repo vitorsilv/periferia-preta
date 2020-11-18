@@ -9861,26 +9861,25 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0 0;
 }
 
-.page-section-agenda {
-  margin-top: -6px;
-}
-
-.page-section-agenda h4.text-data{
+.col-lg-11 h4.text-data{
   font-size: 60%;
   text-align: center !important;
   color: #000;
   text-transform: uppercase;
   background: local;
   background-color: #b8fc6a;
+  margin-top: -7px;
+  margin-bottom: -1px;
 }
 
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #fed136
 }
 .page-section h3.section-subheading {
   font-size: 1rem;
@@ -9895,17 +9894,32 @@ p {
     padding: 0;
   }
 
-  .page-section-agenda {
-    margin-top: -13px;
-  }  
-
-  .page-section-agenda h4.text-data{
+  .col-lg-11 h4.text-data{
     font-size: 90%;
     text-align: center !important;
     color: #000;
     text-transform: uppercase;
     background: local;
     background-color: #b8fc6a;
+    margin-top: -15px;
+    margin-bottom: -3px;
+  }
+}
+
+@media (min-width: 1440px) {
+  section {
+    padding: 0;
+  }
+
+  .col-lg-11 h4.text-data{
+    font-size: 150%;
+    text-align: center !important;
+    color: #000;
+    text-transform: uppercase;
+    background: local;
+    background-color: #b8fc6a;
+    margin-top: -26px;
+    margin-bottom: -3px;
   }
 }
 ::-moz-selection {
@@ -10017,7 +10031,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 4rem;
+  padding-top: 5rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/Chao_AMARELO.jpg");
@@ -10043,7 +10057,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 3rem;
+    padding-top: 7rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
