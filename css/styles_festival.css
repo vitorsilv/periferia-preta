@@ -478,6 +478,11 @@ mark,
   height: auto;
 }
 
+.img-fluid-logo {
+  max-width: 45%;
+  height: auto;
+}
+
 .img-fluid-tl {
   max-width: 100%;
   height: 100%;
@@ -9977,8 +9982,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/moldura1.png");
-  background-repeat: no-repeat;
+  background-image: url("../assets/img/Chao_AMARELO.jpg");
+  background-repeat: repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: auto;

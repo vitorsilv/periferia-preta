@@ -9792,6 +9792,11 @@ button.bg-dark:focus {
   text-transform: uppercase !important;
 }
 
+.text-uppercase-masthead {
+  text-transform: uppercase !important;
+  margin: 15px 0px;
+}
+
 .text-capitalize {
   text-transform: capitalize !important;
 }
@@ -9865,7 +9870,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #A41912 !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
@@ -10176,7 +10181,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.png");
+  background-image: url("../assets/img/fundo2.jpg");
   background-color: linear-gradient(359.71deg, rgba(0, 0, 0, 0.9) 12.35%, rgba(0, 0, 0, 0) 101.73%);
   background-repeat: no-repeat;
   background-attachment: scroll;
