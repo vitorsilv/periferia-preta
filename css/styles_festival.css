@@ -6374,7 +6374,7 @@ button.bg-dark:focus {
   width: 100%;
   padding: 0;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .embed-responsive::before {
   display: block;
@@ -9864,7 +9864,7 @@ p {
   padding: 2rem 0 0;
 }
 
-.col-lg-11 h4.text-data{
+.masthead h4.text-data{
   font-size: 60%;
   text-align: center !important;
   color: #000;
@@ -9872,7 +9872,7 @@ p {
   background: local;
   background-color: #b8fc6a;
   margin-top: -7px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .page-section h2.section-heading {
@@ -9894,7 +9894,7 @@ p {
     padding: 0;
   }
 
-  .col-lg-11 h4.text-data{
+  .masthead h4.text-data{
     font-size: 90%;
     text-align: center !important;
     color: #000;
@@ -9902,7 +9902,7 @@ p {
     background: local;
     background-color: #b8fc6a;
     margin-top: -15px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 }
 
@@ -9911,7 +9911,7 @@ p {
     padding: 0;
   }
 
-  .col-lg-11 h4.text-data{
+  .masthead h4.text-data{
     font-size: 150%;
     text-align: center !important;
     color: #000;
@@ -9919,7 +9919,7 @@ p {
     background: local;
     background-color: #b8fc6a;
     margin-top: -26px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
